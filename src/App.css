@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body{
+  color: white;
+  background-color: black;
+  margin: 0.5em;
+}
+.lightFont{
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  /* text-align: center; */
+}
+.boldFont{
+  color: orange;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+  margin: 0;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+}
+:link{
+  text-decoration: none;
+}
