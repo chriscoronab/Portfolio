@@ -1,0 +1,14 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav p{
+    margin: 0;
+}
+.items{
+    display: flex;
+}
+.items p{
+    margin: 0 1em;
+}

@@ -1,9 +1,20 @@
-import "./home.module.css";
+import "./style.css";
+import avatar from "../../../public/assets/avatar.jpg";
 
-const Nav = () => {
+const Home = () => {
   return (
-    <nav></nav>
+    <div className="home">
+      <div>
+        <h1>Hola, soy Christian 👋</h1>
+      </div>
+      <div>
+        <img src={avatar} />
+      </div>
+      <div>
+        <h2>Full Stack<br /><span>Developer</span></h2>
+      </div>
+    </div>
   )
 };
 
-export default Nav;
+export default Home;

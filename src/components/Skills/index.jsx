@@ -1,4 +1,4 @@
-import "./skills.module.css";
+import "./style.css";
 
 const Nav = () => {
   return (

@@ -1,4 +1,4 @@
-import "./about.module.css";
+import "./style.css";
 
 const Nav = () => {
   return (

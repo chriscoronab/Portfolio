@@ -1,0 +1,45 @@
+.home{
+    margin: 3em 0;
+    height: 30em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./public/assets/keyboard.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.home h1{
+    font-size: 2em;
+    margin-left: 1em;
+}
+.home h2{
+    font-size: 3em;
+    margin-right: 1em;
+}
+.home span{
+    font-size: 1.5em;
+    background: radial-gradient(circle, rgb(255, 81, 0), rgb(165, 0, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.home div img{
+    width: 60%;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 81, 0);
+    object-fit: cover;
+    position: relative;
+    animation: move 2s ease-in-out infinite;
+}
+@keyframes move{
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 10px;
+    }
+    100%{
+        top: 0;
+    }
+}
