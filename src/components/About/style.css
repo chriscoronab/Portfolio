@@ -1,0 +1,35 @@
+.section{
+    margin: 3em 10em;
+}
+.section h2{
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    background: radial-gradient(circle, rgb(255, 81, 0), rgb(165, 0, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.section p{
+    font-size: 1.2em;
+    text-align: center;
+}
+.section span{
+    background: radial-gradient(circle, rgb(255, 81, 0), rgb(165, 0, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.buttons{
+    margin: 2.5em 0;
+    display: flex;
+    justify-content: center;
+}
+.buttons a:hover{
+    transform: scale(1.1);
+}
+.buttons Button{
+    margin: 0 2em;
+}
+.links{
+    text-align: center;
+}

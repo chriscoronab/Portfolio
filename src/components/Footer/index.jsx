@@ -3,7 +3,7 @@ import "./style.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <p>© 2024 Christian Corona. Todos los derechos reservados.</p>
+      <p>© 2024 Christian Corona</p>
     </div>
   )
 };

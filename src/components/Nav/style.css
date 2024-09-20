@@ -2,9 +2,20 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: black;
 }
 nav p{
     margin: 0;
+}
+.name p{
+    font-size: 1.5em;
+    background: radial-gradient(circle, rgb(255, 81, 0), rgb(165, 0, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 .items{
     display: flex;

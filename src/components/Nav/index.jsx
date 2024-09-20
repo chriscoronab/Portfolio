@@ -10,18 +10,18 @@ const Nav = () => {
         </Link>
       </div>
       <div className="items">
-        <Link to="/about">
-          <p><b>Sobre mí</b></p>
-        </Link>
-        <Link to="/skills">
-          <p><b>Habilidades</b></p>
-        </Link>
-        <Link to="/projects">
-          <p><b>Proyectos</b></p>
-        </Link>
-        <Link to="/contact">
-          <p><b>Contacto</b></p>
-        </Link>
+        <a href="#about">
+          <p><b>About me</b></p>
+        </a>
+        <a href="#skills">
+          <p><b>Skills</b></p>
+        </a>
+        <a href="#projects">
+          <p><b>Projects</b></p>
+        </a>
+        <a href="#contact">
+          <p><b>Contact</b></p>
+        </a>
       </div>
     </nav>
   )

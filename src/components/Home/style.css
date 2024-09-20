@@ -1,3 +1,7 @@
+.process h3{
+    margin-top: 3em;
+    text-align: center;
+}
 .home{
     margin: 3em 0;
     height: 30em;
@@ -5,7 +9,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-image: url("./public/assets/keyboard.jpg");
+    background-image: url("https://raw.githubusercontent.com/chriscoronab/Portfolio/main/public/assets/keyboard.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -15,7 +19,7 @@
 }
 .home h2{
     font-size: 3em;
-    margin-right: 1em;
+    margin: 3em 1em 2.5em 0;
 }
 .home span{
     font-size: 1.5em;
@@ -24,7 +28,7 @@
     background-clip: text;
     color: transparent;
 }
-.home div img{
+.avatar img{
     width: 60%;
     border-radius: 50%;
     border: 2px solid rgb(255, 81, 0);
@@ -42,4 +46,12 @@
     100%{
         top: 0;
     }
+}
+.home div .links img{
+    width: 60%;
+}
+.links{
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
