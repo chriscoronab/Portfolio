@@ -1,35 +1,57 @@
 .section{
-    margin: 3em 10em;
+    margin: 2em auto;
 }
 .section h2{
     font-size: 2em;
-    margin-bottom: 1.5em;
-    background: radial-gradient(circle, rgb(255, 81, 0), rgb(165, 0, 0));
+    background: radial-gradient(circle, rgb(255, 51, 0), rgb(165, 0, 0));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-}
-.section p{
-    font-size: 1.2em;
     text-align: center;
 }
-.section span{
-    background: radial-gradient(circle, rgb(255, 81, 0), rgb(165, 0, 0));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-.buttons{
-    margin: 2.5em 0;
+.about, .about .aboutComponents div, .about .aboutComponents a div{
     display: flex;
+    align-items: center;
+}
+.about{
     justify-content: center;
 }
-.buttons a:hover{
+.about .aboutMe{
+    text-align: center;
+    width: 30%;
+}
+.about .aboutMe h3{
+    font-size: 1.5em;
+}
+.about .aboutMe, .about .aboutComponents div{
+    margin: 1em;
+    padding: 1em;
+    background-color: rgba(27, 25, 25, 0.315);
+    border-radius: 15px;
+}
+.about .aboutMe:hover, .about .aboutComponents div:hover{
     transform: scale(1.1);
 }
-.buttons Button{
-    margin: 0 2em;
+.avatar img{
+    height: 25em;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 51, 0);
+    object-fit: cover;
+    position: relative;
+    animation: move 2s ease-in-out infinite;
 }
-.links{
-    text-align: center;
+@keyframes move{
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 10px;
+    }
+    100%{
+        top: 0;
+    }
+}
+.about .aboutComponents div img{
+    margin-right: 0.5em;
+    width: 10%;
 }

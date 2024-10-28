@@ -6,7 +6,7 @@ body{
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  margin: 1em;
+  margin: 0;
 }
 .App{
   display: flex;
@@ -18,7 +18,4 @@ html{
 a{
   text-decoration: none;
   color: white;
-}
-a:hover{
-  transform: scale(1.2);
 }
