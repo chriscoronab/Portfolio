@@ -1,0 +1,28 @@
+.skills{
+    margin: 3em 6em;
+}
+.skills .technologies{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills .technologies .technology{
+    text-align: center;
+}
+.skills .technologies .technology div img{
+    width: 50%;
+}
+.skills .technologies .technology div img:hover{
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 767px){
+    .skills{
+        margin: 2em 1em;
+    }
+    .skills .technologies .technology{
+        width: 25%;
+    }
+    .skills .technologies .technology div img{
+        width: 40%;
+    }
+}

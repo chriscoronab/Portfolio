@@ -1,9 +1,42 @@
 import "./style.css";
+import { proficientStack, learningStack, toLearnStack } from "../../constants/skills.js";
 
-const Nav = () => {
+const Tech = ({ technologies, title }) => {
   return (
-    <nav></nav>
-  )
+    <div className="skills">
+      <h3>{title}</h3>
+      <div className="technologies">
+        {technologies.map(technology => (
+          <div key={technology.name} className="technology">
+            <div>
+              <img src={technology.icon} alt={technology.name} />
+            </div>
+            <h5>{technology.name}</h5>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
-export default Nav;
+const Skills = () => {
+  return (
+    <div id="skills" className="section">
+      <h2>My Skills</h2>
+      <Tech
+        technologies={proficientStack}
+        title="Technologies I'm proficient in:"
+      />
+      <Tech
+        technologies={learningStack}
+        title="Technologies I'm learning:"
+      />
+      <Tech
+        technologies={toLearnStack}
+        title="Technologies I want to learn:"
+      />
+    </div>
+  );
+};
+
+export default Skills;

@@ -37,3 +37,35 @@ nav .socialMedia div{
 nav .socialMedia img{
     width: 60%;
 }
+nav .menu{
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+    nav .menu{
+        display: block;
+    }
+    nav .menu img{
+        width: 70%;
+    }
+    nav .items, nav .socialMedia{
+        display: none;
+    }
+    nav.menuOpen, nav.menuOpen .items{
+        display: flex;
+        flex-direction: column;
+    }
+    nav.menuOpen .items{
+        margin: 1em 0;
+    }
+    nav.menuOpen .items p{
+        margin: 0.5em 0;
+    }
+    nav.menuOpen .socialMedia{
+        display: flex;
+    }
+    nav.menuOpen .socialMedia{
+        width: 50%;
+        margin-bottom: 1em;
+    }
+}

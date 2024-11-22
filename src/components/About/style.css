@@ -1,7 +1,8 @@
 .section{
-    margin: 2em auto;
+    margin: 1em auto;
 }
 .section h2{
+    margin-bottom: 2em;
     font-size: 2em;
     background: radial-gradient(circle, rgb(255, 51, 0), rgb(165, 0, 0));
     -webkit-background-clip: text;
@@ -54,4 +55,32 @@
 .about .aboutComponents div img{
     margin-right: 0.5em;
     width: 10%;
+}
+
+@media screen and (max-width: 767px){
+    .about, .about .aboutComponents{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .aboutMe{
+        width: 80%
+    }
+    .avatar img{
+        height: 20em;
+        margin: 2em 0;
+    }
+    .about .aboutMe, .about .aboutComponents div{
+        margin: 0.5em;
+        padding: 0.5em;
+    }
+    .about .aboutComponents a div img{
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 2500px){
+    .about .aboutMe{
+        width: 20%
+    }
 }
