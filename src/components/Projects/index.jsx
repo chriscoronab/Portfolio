@@ -1,9 +1,18 @@
 import "./style.css";
+import projects from "../../constants/projects.js";
+import Card from "./card.jsx";
 
-const Nav = () => {
+const Projects = () => {
   return (
-    <nav></nav>
-  )
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div className="projects">
+        {projects.map(project => (
+          <Card key={project.name} project={project} />
+        ))}
+      </div>
+    </section>
+  );
 };
 
-export default Nav;
+export default Projects;

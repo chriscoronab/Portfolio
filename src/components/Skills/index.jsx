@@ -21,7 +21,7 @@ const Tech = ({ technologies, title }) => {
 
 const Skills = () => {
   return (
-    <div id="skills" className="section">
+    <section id="skills">
       <h2>My Skills</h2>
       <Tech
         technologies={proficientStack}
@@ -35,7 +35,7 @@ const Skills = () => {
         technologies={toLearnStack}
         title="Technologies I want to learn:"
       />
-    </div>
+    </section>
   );
 };
 

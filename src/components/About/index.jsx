@@ -9,7 +9,7 @@ import contact from "/assets/send-icon.png?url";
 const About = () => {
   return (
     <>
-      <div id="about" className="section">
+      <section id="about">
         <h2>About Me</h2>
         <div className="about">
           <div className="aboutMe">
@@ -45,7 +45,7 @@ const About = () => {
             </a>
           </div>
         </div>
-      </div>
+      </section>
       <Certificates />
     </>
   );

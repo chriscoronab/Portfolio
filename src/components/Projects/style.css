@@ -1,0 +1,50 @@
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin: 1em;
+    padding: 0.5em;
+    width: 25%;
+    background-color: rgba(27, 25, 25, 0.315);
+    border-radius: 15px;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.card div img, .modal div img{
+    width: 100%;
+    border-radius: 15px;
+}
+.modal{
+    width: 60%;
+    background-color: rgba(27, 25, 25, 0.315);
+    border-radius: 15px;
+    padding: 0.5em;
+}
+.modal h3{
+    background: radial-gradient(circle, rgb(255, 51, 0), rgb(165, 0, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.modal .tech{
+    display: flex;
+    flex-wrap: wrap;
+}
+.modal .tech h5{
+    margin: 0 0.5em 0 0;
+}
+.modal .projectLinks{
+    margin: 1em 0;
+}
+.modal .projectLinks button{
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 767px){
+    .card, .modal{
+        width: 85%;
+    }
+}

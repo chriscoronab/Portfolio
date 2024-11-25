@@ -1,7 +1,7 @@
-.section{
+section{
     margin: 1em auto;
 }
-.section h2{
+section h2{
     margin-bottom: 2em;
     font-size: 2em;
     background: radial-gradient(circle, rgb(255, 51, 0), rgb(165, 0, 0));
@@ -30,7 +30,7 @@
     background-color: rgba(27, 25, 25, 0.315);
     border-radius: 15px;
 }
-.about .aboutMe:hover, .about .aboutComponents div:hover{
+.about .aboutComponents div:hover{
     transform: scale(1.1);
 }
 .avatar img{
