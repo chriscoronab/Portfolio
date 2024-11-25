@@ -1,5 +1,6 @@
 import "./style.css";
 import Certificates from "../Certificates";
+import about from "/assets/about.png?url";
 import avatar from "/assets/avatar.jpg?url";
 import location from "/assets/location-icon.png?url";
 import experience from "/assets/work-icon.png?url";
@@ -10,7 +11,10 @@ const About = () => {
   return (
     <>
       <section id="about">
-        <h2>About Me</h2>
+        <div className="title">
+          <img src={about} alt="about" />
+          <h2>About Me</h2>
+        </div>
         <div className="about">
           <div className="aboutMe">
             <h3>Hi there, I'm Christian 👋</h3>

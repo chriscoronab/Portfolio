@@ -1,0 +1,22 @@
+.contactMe{
+    margin-bottom: 2em;
+}
+.contactTitle img{
+    width: 6%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    width: 40%;
+}
+
+@media screen and (max-width: 767px){
+    .contactTitle img{
+        width: 10%;
+    }
+    .form{
+        width: 85%;
+        margin: 2em 0;
+    }
+}

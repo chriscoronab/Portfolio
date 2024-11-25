@@ -1,5 +1,6 @@
 import "./style.css";
 import { proficientStack, learningStack, toLearnStack } from "../../constants/skills.js";
+import skills from "/assets/skills.png?url";
 
 const Tech = ({ technologies, title }) => {
   return (
@@ -22,7 +23,10 @@ const Tech = ({ technologies, title }) => {
 const Skills = () => {
   return (
     <section id="skills">
-      <h2>My Skills</h2>
+      <div className="title">
+        <img src={skills} alt="skills" />
+        <h2>My Skills</h2>
+      </div>
       <Tech
         technologies={proficientStack}
         title="Technologies I'm proficient in:"

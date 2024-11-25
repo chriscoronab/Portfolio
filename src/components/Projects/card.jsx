@@ -6,6 +6,8 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import CloseIcon from "@mui/icons-material/Close";
+import LinkOutlinedIcon from "@mui/icons-material/LinkOutlined";
+import CodeOutlinedIcon from "@mui/icons-material/CodeOutlined";
 
 const Card = ({ project }) => {
   const [open, setOpen] = useState(false);
@@ -64,10 +66,10 @@ const Card = ({ project }) => {
           </div>
           <div className="projectLinks">
             <Link to={project.link} target="_blank">
-              <Button variant="outlined" color="error" >Link</Button>
+              <Button variant="outlined" color="error"><LinkOutlinedIcon />Link</Button>
             </Link>
             <Link to={project.repository} target="_blank">
-              <Button variant="outlined" color="error" >Repository</Button>
+              <Button variant="outlined" color="error"><CodeOutlinedIcon />Repository</Button>
             </Link>
           </div>
         </Box>
