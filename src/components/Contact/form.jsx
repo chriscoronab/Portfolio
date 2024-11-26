@@ -10,14 +10,17 @@ import success from "/assets/success.png?url";
 
 const CssTextField = styled(TextField)({
     "& label": {
-        color: "white"
+        color: "white",
+        fontFamily: "Montserrat"
     },
     "& label.Mui-focused": {
-        color: "white"
+        color: "white",
+        fontFamily: "Montserrat"
     },
     "& .MuiOutlinedInput-root": {
         "& input": {
-            color: "white"
+            color: "white",
+            fontFamily: "Montserrat"
         },
         "& fieldset": {
             borderColor: "rgb(255, 51, 0)"
@@ -69,7 +72,8 @@ const Form = () => {
           component="form"
           autoComplete="on"
           className="form"
-          onSubmit={handleSubmit}>
+          onSubmit={handleSubmit}
+        >
           <CssTextField
             name="name"
             label="Full Name"
@@ -98,14 +102,16 @@ const Form = () => {
             variant="outlined"
             style={{ marginBottom: 11 }}
             required />
-          <Button
-            type="submit"
-            disabled={sending}
-            variant="outlined"
-            color="error">
-              <SendOutlinedIcon />
-              {sending ? "Sending..." : "Send"}
-          </Button>
+          <div>
+            <Button
+              type="submit"
+              disabled={sending}
+              variant="outlined"
+              color="error">
+                <SendOutlinedIcon />
+                {sending ? "Sending..." : "Send"}
+            </Button>
+          </div>
         </Box>
       }
     </>

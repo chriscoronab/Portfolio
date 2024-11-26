@@ -1,4 +1,40 @@
-.footer{
+footer{
     background-color: rgba(27, 25, 25, 0.315);
     text-align: center;
+    padding: 0 1.5em;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+footer .name, footer .footerItems{
+    display: flex;
+    flex-direction: column;
+}
+footer .name h3{
+    margin: 0;
+}
+footer .footerItems{
+    align-items: center;
+    margin-bottom: 1em;
+}
+footer .footerItems a p{
+    text-align: center;
+}
+footer .footerItems p{
+    margin: 0.5em 0;
+}
+
+@media screen and (max-width: 767px){
+    footer div{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .name, footer .footerItems, footer .socialMedia{
+        margin-bottom: 2em;
+    }
+    footer .socialMedia{
+        flex-direction: row;
+    }
 }

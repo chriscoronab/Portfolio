@@ -1,8 +1,8 @@
-.contactMe{
-    margin-bottom: 2em;
-}
 .contactTitle img{
     width: 6%;
+}
+.contactMe{
+    margin-bottom: 2em;
 }
 .sent{
     text-align: center;
@@ -10,8 +10,6 @@
 .form{
     display: flex;
     flex-direction: column;
-    margin-left: 2em;
-    width: 40%;
 }
 
 @media screen and (max-width: 767px){

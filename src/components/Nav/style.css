@@ -11,31 +11,28 @@ nav{
 nav p{
     margin: 0;
 }
-nav .name p{
+.name p{
     font-size: 1.5em;
     background: radial-gradient(circle, rgb(255, 81, 0), rgb(165, 0, 0));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
-nav .items, nav .socialMedia{
+nav .items, nav .socialMedia, footer .socialMedia{
     display: flex;
     align-items: center;
 }
 nav .items p{
     margin: 0 1em;
 }
-nav .items a:hover, nav .socialMedia img:hover{
+nav .items a:hover, nav .socialMedia img:hover, footer .footerItems a:hover, footer .socialMedia img:hover{
     transform: scale(1.2);
 }
-nav .socialMedia{
-    width: 15%;
-}
-nav .socialMedia div{
+nav .socialMedia div, footer .socialMedia div{
     width: max-content;
 }
-nav .socialMedia img{
-    width: 60%;
+nav .socialMedia img, footer .socialMedia img{
+    width: 50%;
 }
 nav .menu{
     display: none;
