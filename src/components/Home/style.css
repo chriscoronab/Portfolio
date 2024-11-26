@@ -9,11 +9,25 @@
 .home h1{
     margin-top: 3em;
 }
+.handEmoji{
+    animation: wave  2.5s infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+@keyframes wave {
+    0% { transform: rotate(0deg); }
+    15% { transform: rotate(15deg); }
+    30% { transform: rotate(-15deg); }
+    45% { transform: rotate(10deg); }
+    60% { transform: rotate(-10deg); }
+    75% { transform: rotate(5deg); }
+    100% { transform: rotate(0deg); }
+}
 .home h2{
     font-size: 3em;
     margin: 1em 0;
 }
-.home span{
+.home h2 span{
     font-size: 1.5em;
     background: radial-gradient(circle, rgb(255, 51, 0), rgb(165, 0, 0));
     -webkit-background-clip: text;

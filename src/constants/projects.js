@@ -97,7 +97,7 @@ const projects = [
     },
     {
         name: "Portfolio",
-        description: "Personal portfolio showcasing my projects, obtained certifications, technical skills and contact links.",
+        description: "Personal portfolio showcasing my projects, technical skills and contact links.",
         image: portfolio,
         tech: [
             {

@@ -19,7 +19,7 @@ section h2{
     width: 2.5%;
     margin-right: 1em;
 }
-.about, .about .aboutComponents div, .about .aboutComponents a div, .contactMe, .contactMe .contactComponents div a{
+.about, .about .aboutComponents div, .about .aboutComponents a div, .contactMe, .contactMe .contactComponents div a, .github div a{
     display: flex;
     align-items: center;
 }
@@ -33,14 +33,23 @@ section h2{
 .about .aboutMe h3{
     font-size: 1.5em;
 }
-.about .aboutMe, .about .aboutComponents div, .contactMe .contactComponents div, .sent{
+.about .aboutMe h4 span{
+    background: radial-gradient(circle, rgb(255, 51, 0), rgb(165, 0, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.about .aboutMe, .about .aboutComponents div, .contactMe .contactComponents div, .sent, .github div{
     margin: 1em;
     padding: 1em;
     background-color: rgba(27, 25, 25, 0.315);
     border-radius: 15px;
 }
-.about .aboutComponents div:hover, .contactMe .contactComponents div:hover{
+.about .aboutComponents div:hover, .contactMe .contactComponents div:hover, .github div:hover{
     transform: scale(1.1);
+}
+.avatar{
+    margin: 0;
 }
 .avatar img{
     height: 25em;
