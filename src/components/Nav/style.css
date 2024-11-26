@@ -39,6 +39,9 @@ nav .menu{
 }
 
 @media screen and (max-width: 767px){
+    nav{
+        text-align: center;
+    }
     nav .menu{
         display: block;
     }
@@ -60,9 +63,6 @@ nav .menu{
     }
     nav.menuOpen .socialMedia{
         display: flex;
-    }
-    nav.menuOpen .socialMedia{
-        width: 50%;
         margin-bottom: 1em;
     }
 }
