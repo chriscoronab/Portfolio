@@ -32,11 +32,11 @@
     display: flex;
     align-items: center;
 }
-.home .socialMedia .contact img, .contactMe .contactComponents img{
+.home .socialMedia .contact img, .contactMe .contactComponents img, .sent img{
     width: 12%;
     margin: 0 0.5em;
 }
-.home .socialMedia .contact div img:hover, .home .socialMedia .links img:hover, .title img:hover{
+.home .socialMedia .contact div img:hover, .home .socialMedia .links img:hover, .title img:hover, .sent img:hover{
     transform: scale(1.2);
 }
 .home .socialMedia .links{

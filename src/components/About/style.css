@@ -33,7 +33,7 @@ section h2{
 .about .aboutMe h3{
     font-size: 1.5em;
 }
-.about .aboutMe, .about .aboutComponents div, .contactMe .contactComponents div{
+.about .aboutMe, .about .aboutComponents div, .contactMe .contactComponents div, .sent{
     margin: 1em;
     padding: 1em;
     background-color: rgba(27, 25, 25, 0.315);

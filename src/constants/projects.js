@@ -121,6 +121,10 @@ const projects = [
                 color: "linear-gradient(90deg, pink, red)"
             },
             {
+                name: "emailjs",
+                color: "linear-gradient(90deg, purple, pink)"
+            },
+            {
                 name: "materialui",
                 color: "linear-gradient(90deg, lightgreen, cyan)"
             }

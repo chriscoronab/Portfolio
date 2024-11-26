@@ -4,6 +4,9 @@
 .contactTitle img{
     width: 6%;
 }
+.sent{
+    text-align: center;
+}
 .form{
     display: flex;
     flex-direction: column;
