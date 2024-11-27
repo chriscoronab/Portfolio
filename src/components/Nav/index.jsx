@@ -14,12 +14,12 @@ const Nav = () => {
   };
   return (
     <nav className={`${clicked ? "menuOpen" : ""}`}>
-      <div className="name">
+      <div className="name" data-aos="fade-down">
         <Link to="/">
           <p><b>Christian Corona</b></p>
         </Link>
       </div>
-      <div className="items">
+      <div className="items" data-aos="fade-down">
         <a href="#about" onClick={handleClick}>
           <p><b>About</b></p>
         </a>
@@ -33,7 +33,7 @@ const Nav = () => {
           <p><b>Contact</b></p>
         </a>
       </div>
-      <div className="socialMedia">
+      <div className="socialMedia" data-aos="fade-down">
         <div>
           <Link to="https://wa.me/5491132006857" target="_blank" onClick={handleClick}>
             <img src={whatsapp} alt="whatsapp" />
@@ -55,7 +55,7 @@ const Nav = () => {
           </Link>
         </div>
       </div>
-      <div className="menu" onClick={handleClick}>
+      <div className="menu" onClick={handleClick} data-aos="fade-down">
         <img src={menu} alt="menu" />
       </div>
     </nav>

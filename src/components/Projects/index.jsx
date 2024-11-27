@@ -8,7 +8,7 @@ import github from "/assets/github-orange-icon.png?url";
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="title">
+      <div className="title" data-aos="fade-up">
         <img src={portfolio} alt="portfolio" />
         <h2>My Projects</h2>
       </div>
@@ -18,12 +18,12 @@ const Projects = () => {
         ))}
       </div>
       <div className="github">
-        <h4>Thank you for exploring my work 😎
+        <h4 data-aos="fade-up">Thank you for exploring my work 😎
           <br />
           <br />
           Feel free to discover more on my GitHub:
         </h4>
-        <div>
+        <div data-aos="fade-up">
           <Link to="https://www.github.com/chriscoronab" target="_blank">
             <img src={github} alt="github" />
             <h4>chriscoronab</h4>

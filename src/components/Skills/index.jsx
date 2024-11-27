@@ -5,10 +5,10 @@ import skills from "/assets/skills.png?url";
 const Tech = ({ technologies, title }) => {
   return (
     <div className="skills">
-      <h3>{title}</h3>
+      <h3 data-aos="fade-up">{title}</h3>
       <div className="technologies">
         {technologies.map(technology => (
-          <div key={technology.name} className="technology">
+          <div key={technology.name} className="technology" data-aos="fade-up">
             <div>
               <img src={technology.icon} alt={technology.name} />
             </div>
@@ -23,7 +23,7 @@ const Tech = ({ technologies, title }) => {
 const Skills = () => {
   return (
     <section id="skills">
-      <div className="title">
+      <div className="title" data-aos="fade-up">
         <img src={skills} alt="skills" />
         <h2>My Skills</h2>
       </div>
@@ -33,7 +33,7 @@ const Skills = () => {
       />
       <Tech
         technologies={learningStack}
-        title="Technologies I'm learning:"
+        title="Technologies I'm focusing on mastering:"
       />
       <Tech
         technologies={toLearnStack}

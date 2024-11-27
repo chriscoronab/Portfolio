@@ -56,7 +56,7 @@ const Form = () => {
   return (
     <>
       {clicked ?
-        <div className="sent">
+        <div className="sent" data-aos="fade-up">
           <img src={success} alt="success" />
           <h4>Your message was sent successfully!
             <br />
@@ -73,6 +73,7 @@ const Form = () => {
           autoComplete="on"
           className="form"
           onSubmit={handleSubmit}
+          data-aos="fade-up"
         >
           <CssTextField
             name="name"

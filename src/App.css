@@ -19,3 +19,17 @@ a{
   text-decoration: none;
   color: white;
 }
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: radial-gradient(circle, rgb(255, 51, 0), rgb(165, 0, 0));
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: radial-gradient(circle, rgb(165, 0, 0), rgb(255, 51, 0));
+}
+::-webkit-scrollbar-track{
+  background: rgba(27, 25, 25, 0.315);
+  border-radius: 5px;
+}

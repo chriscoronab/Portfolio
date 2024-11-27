@@ -15,14 +15,14 @@ const Card = ({ project }) => {
   const handleClose = () => setOpen(false);
   return (
     <>
-      <div className="card">
+      <div className="card" data-aos="fade-up">
         <div>
           <img src={project.image} alt={project.name} />
         </div>
         <h3>{project.name}</h3>
         <Button variant="outlined" color="error" onClick={handleOpen}>Learn More</Button>
       </div>
-      <Modal open={open} onClose={handleClose}>
+      <Modal open={open} onClose={handleClose} data-aos="fade-up">
         <Box
           sx={{
             position: "relative",
