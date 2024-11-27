@@ -8,12 +8,6 @@ import github from "/assets/github-orange-icon.png?url";
 const Footer = () => {
   return (
     <footer>
-      <div className="waves">
-        <div className="wave" id="wave1"></div>
-        <div className="wave" id="wave2"></div>
-        <div className="wave" id="wave3"></div>
-        <div className="wave" id="wave4"></div>
-      </div>
       <div>
         <div className="name">
           <p><b>Christian Corona</b></p>
