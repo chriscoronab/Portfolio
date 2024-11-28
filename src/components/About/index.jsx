@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <div className="about">
         <div className="aboutMe" data-aos="fade-up">
-          <h3>Hi there, I'm Christian <span className="handEmoji">👋</span></h3>
+          <h3>Hi there, I'm Christian</h3>
           <h4>I'm a <span>Full Stack Developer</span> who enjoys developing intuitive and efficient web applications.
           <br />
           <br />
