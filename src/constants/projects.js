@@ -1,5 +1,6 @@
 import bodegalimbo from "/assets/projects/bodegalimbo.jpg?url";
 import bestfriend from "/assets/projects/bestfriend.png?url";
+import soundbit from "/assets/projects/soundbit.png?url";
 import portfolio from "/assets/projects/portfolio.png?url";
 import flownba from "/assets/projects/flownba.png?url";
 import hotelperlablanca from "/assets/projects/hotelperlablanca.png?url";
@@ -48,7 +49,7 @@ const projects = [
     },
     {
         name: "Best Friend",
-        description: "Project developed during the No Country work simulation. A platform that facilitates pet adoption by connecting people with animals in need of a home. It includes a form with key questions to assess the adopter's suitability, promoting a responsible adoption process and ensuring pets' well-being.",
+        description: "Project developed during the first stage of the No Country work simulation. A platform that facilitates pet adoption by connecting people with animals in need of a home. It includes a form with key questions to assess the adopter's suitability, promoting a responsible adoption process and ensuring pets' well-being.",
         image: bestfriend,
         tech: [
             {
@@ -94,6 +95,55 @@ const projects = [
         ],
         link: "https://findyourbestfriend.vercel.app",
         repository: "https://github.com/chriscoronab/BestFriend"
+    },
+    {
+        name: "Soundbit",
+        description: "Project developed during the second stage of the No Country work simulation. Soundbit is a music player that offers an immersive and unique listening experience. Its main feature is its exclusive focus on 8D music, which includes surround audio effects that create the sensation of being enveloped by sound in constant motion, transporting you to a dynamic and captivating auditory universe.",
+        image: soundbit,
+        tech: [
+            {
+                name: "typescript",
+                color: "linear-gradient(90deg, blue, cyan)"
+            },
+            {
+                name: "react",
+                color: "linear-gradient(90deg, cyan, purple)"
+            },
+            {
+                name: "nextjs",
+                color: "linear-gradient(90deg, white, gray)"
+            },
+            {
+                name: "java",
+                color: "linear-gradient(90deg, lightgreen, brown)"
+            },
+            {
+                name: "springboot",
+                color: "linear-gradient(90deg, red, orange)"
+            },
+            {
+                name: "mysql",
+                color: "linear-gradient(90deg, yellow, whitesmoke)"
+            },
+            {
+                name: "swagger",
+                color: "linear-gradient(90deg, purple, pink)"
+            },
+            {
+                name: "tailwindcss",
+                color: "linear-gradient(90deg, red, purple)"
+            },
+            {
+                name: "shadcn",
+                color: "linear-gradient(90deg, blue, white)"
+            },
+            {
+                name: "figma",
+                color: "linear-gradient(90deg, purple, lightgreen)"
+            }
+        ],
+        link: "https://soundbitmusic.vercel.app",
+        repository: "https://github.com/chriscoronab/Soundbit"
     },
     {
         name: "Portfolio",
