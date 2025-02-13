@@ -6,6 +6,7 @@ import email from "/assets/email-icon.png?url";
 import linkedin from "/assets/linkedin-orange-icon.png?url";
 import github from "/assets/github-orange-icon.png?url";
 import menu from "/assets/menu.png?url";
+import close from "/assets/close.png?url";
 
 const Nav = () => {
   const [clicked, setClicked] = useState(false);
@@ -56,7 +57,11 @@ const Nav = () => {
         </div>
       </div>
       <div className="menu" onClick={handleClick} data-aos="fade-down">
-        <img src={menu} alt="menu" />
+        { clicked ?
+          <img src={close} alt="close" />
+        :
+          <img src={menu} alt="menu" />
+        }
       </div>
     </nav>
   );

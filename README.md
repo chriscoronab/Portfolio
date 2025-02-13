@@ -1,10 +1,10 @@
 # Christian Corona | Portfolio
 
-Developer: Christian Corona
+Developer: Christian Corona.
 
 ## About
 
-Personal portfolio showcasing my projects, technical skills and contact links
+Personal portfolio showcasing my projects, technical skills and contact links.
 
 ## Technologies
 <p align="left">
@@ -17,7 +17,7 @@ Personal portfolio showcasing my projects, technical skills and contact links
 
 ## Dependencies
 
-emailjs, material ui, aos
+EmailJS, Material UI, AOS.
 
 ## Link
 

@@ -94,7 +94,7 @@ const projects = [
             }
         ],
         link: "https://findyourbestfriend.vercel.app",
-        repository: "https://github.com/chriscoronab/BestFriend"
+        repository: "https://github.com/No-Country-simulation/c21-22-m-react-agregarback"
     },
     {
         name: "Soundbit",
@@ -143,7 +143,7 @@ const projects = [
             }
         ],
         link: "https://soundbitmusic.vercel.app",
-        repository: "https://github.com/chriscoronab/Soundbit"
+        repository: "https://github.com/No-Country-simulation/equipo-s19-06-m-webapp"
     },
     {
         name: "Portfolio",

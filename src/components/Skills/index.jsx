@@ -1,5 +1,5 @@
 import "./style.css";
-import { proficientStack, learningStack, toLearnStack } from "../../constants/skills.js";
+import { proficientStack, learningStack } from "../../constants/skills.js";
 import skills from "/assets/skills.png?url";
 
 const Tech = ({ technologies, title }) => {
@@ -34,10 +34,6 @@ const Skills = () => {
       <Tech
         technologies={learningStack}
         title="Technologies I'm focusing on mastering:"
-      />
-      <Tech
-        technologies={toLearnStack}
-        title="Technologies I want to learn:"
       />
     </section>
   );

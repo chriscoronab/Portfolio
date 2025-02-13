@@ -15,7 +15,7 @@ const Card = ({ project }) => {
   const handleClose = () => setOpen(false);
   return (
     <>
-      <div className="card" data-aos="fade-up">
+      <div className="card" onClick={handleOpen} data-aos="fade-up">
         <div>
           <img src={project.image} alt={project.name} />
         </div>

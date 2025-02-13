@@ -55,14 +55,13 @@ nav .menu{
         display: flex;
         flex-direction: column;
     }
-    nav.menuOpen .items{
-        margin: 1em 0;
+    nav.menuOpen{
+        height: 100vh;
     }
     nav.menuOpen .items p{
-        margin: 0.5em 0;
+        margin: 1.5em 0;
     }
     nav.menuOpen .socialMedia{
         display: flex;
-        margin-bottom: 1em;
     }
 }
